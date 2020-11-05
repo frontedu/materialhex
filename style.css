@@ -1,0 +1,149 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    $Box
+\*------------------------------------*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*------------------------------------*\
+    $REST
+\*------------------------------------*/
+body {
+  font-size: 8px;
+  font-family: "Rubik", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  background-color: rgb(18, 18, 19);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+}
+.wrapper h1 {
+
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 600;
+  padding-left: 5%;
+}
+.wrapper h1 span {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  text-indent: -9999px;
+  background: url("google.png") no-repeat 0 0;
+  background-size: 1em 1em;
+  opacity: 1;
+}
+.wrapper ul {
+  margin: 2% 0 0 0;
+  padding: 0;
+}
+.wrapper li {
+  font-weight: 300;
+  width: 13%;
+  display: inline-block;
+  margin-bottom: 1%;
+  text-align: center;
+  color: rgb(229, 229, 234);
+  font-size: 2em;
+}
+.wrapper li span {
+  width: 5em;
+  height: 5em;
+  border-radius: 5em;
+  background-color: red;
+  display: block;
+  margin: 1em auto;
+}
+.wrapper ul li:nth-child(10n+1) span {
+  background: #F44336;
+}
+.wrapper ul li:nth-child(10n+2) span {
+  background: #E91E63;
+}
+.wrapper ul li:nth-child(10n+3) span {
+  background: #9C27B0;
+}
+.wrapper ul li:nth-child(10n+4) span {
+  background: #673AB7;
+}
+.wrapper ul li:nth-child(10n+5) span {
+  background: #3F51B5;
+}
+.wrapper ul li:nth-child(10n+6) span {
+  background: #2196F3;
+}
+.wrapper ul li:nth-child(10n+7) span {
+  background: #03A9F4;
+}
+.wrapper ul li:nth-child(10n+8) span {
+  background: #00BCD4;
+}
+.wrapper ul li:nth-child(10n+9) span {
+  background: #009688;
+}
+.wrapper ul li:nth-child(10n+10) span {
+  background: #4CAF50;
+}
+.wrapper ul li:nth-child(10n+11) span {
+  background: #8BC34A;
+}
+.wrapper ul li:nth-child(10n+12) span {
+  background: #CDDC39;
+}
+.wrapper ul li:nth-child(10n+13) span {
+  background: #FFEB3B;
+}
+.wrapper ul li:nth-child(10n+14) span {
+  background: #FFC107;
+}
+.wrapper ul li:nth-child(10n+15) span {
+  background: #FF9800;
+}
+.wrapper ul li:nth-child(10n+16) span {
+  background: #FF5722;
+}
+.wrapper ul li:nth-child(10n+17) span {
+  background: #795548;
+}
+.wrapper ul li:nth-child(10n+18) span {
+  background: #607D8B;
+}
+.wrapper ul li:nth-child(10n+19) span {
+  background: #9E9E9E;
+}
+.wrapper ul li:nth-child(10n+20) span {
+  background: #616161;
+}
+.wrapper ul li:nth-child(10n+21) span {
+  background: #212121;
+}
+
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 6px;
+  }
+}
